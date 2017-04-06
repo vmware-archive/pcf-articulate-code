@@ -23,4 +23,10 @@ public class ArticulateRestController {
 		return (String) environmentHelper.getVcapApplicationMap().
 				getOrDefault("application_name", "no name environment variable");
 	}
+	
+    @RequestMapping("/hello")
+    public String hello() {
+      return  "Hello! This is yjiang test";
+    }
+
 }

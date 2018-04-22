@@ -1,7 +1,7 @@
 applications:
 - name: articulate
   path: target/articulate-1.0.jar
-  memory: 512M
+  memory: 1024M
   random-route: true
 #  host: articulate-jl
   instances: 1
